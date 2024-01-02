@@ -14,21 +14,23 @@ import Divider from "@material-ui/core/Divider";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
+import "@fontsource/poppins/300.css"
 
 const navLinks = [
-  { name: "about", href: "#about" },
-  { name: "meals", href: "#meals" },
-  { name: "snacks", href: "#snacks" },
+  {name: "home", href: "/" },
+  { name: "about", href: "/about" },
+  { name: "meals", href: "/meals" },
+  { name: "snacks", href: "/snacks" },
 ];
 
 const useStyles = makeStyles((theme) => ({
   link: {
     marginRight: 20,
-    fontFamily: "Quicksand",
+    fontFamily: "Poppins",
   },
   title: {
     marginRight: "auto",
-    fontFamily: "Quicksand",
+    fontFamily: "Poppins",
   },
   icon: {
     marginRight: "auto",
@@ -40,18 +42,17 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <AppBar position="sticky" color="default">
+    <AppBar position="sticky" style={{ background: '#FD89A5' }}>
       <Container maxWidth="md">
       <Toolbar disableGutters>
-      <FontAwesomeIcon className={classes.icon} icon={faUtensils} size="2x" />
+      <FontAwesomeIcon icon={faUtensils} className={classes.icon} size="2x" />
       <h2 className={classes.title}>kaylin's recipes</h2>
       <Hidden xsDown>
         {navLinks.map((item) => (
           <Link 
             className={classes.link}
-            color= "textPrimary"
-            variant= "button"  
-            to={item.href}
+            style={{ color: 'white', fontWeight: "bold" }}
+            href={item.href}
             key={item.name}  
           >
             {item.name}
@@ -86,10 +87,10 @@ const Header = () => {
             <ListItem key={item.name}>
               <Link
                 className={classes.link}
-                color="textPrimary"
+                style={{ color: 'white' }}
                 variant="button"
                 underline="none"
-                to={item.href}
+                href={item.href}
               >
                 {item.name}
               </Link>

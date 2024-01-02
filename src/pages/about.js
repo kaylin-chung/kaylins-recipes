@@ -1,17 +1,16 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from 'react'
+import Header from '../components/header'
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+const About = () => {
+  return (
+    <div style={{ background: '#C6E0E5' }}>
+      <Header/>
+    </div>
+  )
+}
 
-const SecondPage = () => (
-  <Layout>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+// You'll learn about this in the next task, just copy it for now
+export const Head = () => <title>About</title>
 
-export const Head = () => <Seo title="Page two" />
-
-export default SecondPage
+// Step 3: Export your component
+export default About

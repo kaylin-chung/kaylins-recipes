@@ -6,9 +6,9 @@ import { SnackCards } from '../components/snacksUtils.js'
 // Step 2: Define your component
 const Snacks = () => {
   return (
-    <div>
+    <div style={{ background: '#C6E0E5' }}>
       <Header/>
-      <RecipeGrid title="snack ideas" ideas={SnackCards}/>
+      <RecipeGrid title="snack ideas" recipe={SnackCards}/>
     </div>
   )
 }
