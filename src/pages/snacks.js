@@ -8,7 +8,7 @@ const Snacks = () => {
   return (
     <div style={{ background: '#C6E0E5' }}>
       <Header/>
-      <RecipeGrid title="snack ideas" recipe={SnackCards}/>
+      <RecipeGrid title="SNACK IDEAS" recipe={SnackCards}/>
     </div>
   )
 }

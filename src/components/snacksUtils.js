@@ -7,7 +7,8 @@ import brekkytaco from "../images/brekkytaco.jpeg"
 
 export const SnackCards = [
     {
-        title: "toasts!",
+        title: "Toasts!",
+        preptime: "10 min",
         ingredients: [
             "your favorite bread",
             "avocado",
@@ -27,7 +28,8 @@ export const SnackCards = [
         image: toasts,
     }, 
     {
-        title: "lox bagel",
+        title: "Lox Bagel",
+        preptime: "10 min",
         ingredients: [
             "your favorite bagel",
             "thinly sliced smoked salmon",
@@ -44,7 +46,8 @@ export const SnackCards = [
         image: loxbagel,
     }, 
     {
-        title: "yogurt parfait",
+        title: "Yogurt Parfait",
+        preptime: "5 min",
         ingredients: [
             "greek yogurt",
             "berries",
@@ -56,7 +59,8 @@ export const SnackCards = [
         image: yogurtparfait,
     }, 
     {
-        title: "spam musubi",
+        title: "Spam Musubi",
+        preptime: "10-15 min",
         ingredients: [
             "spam",
             "seaweed",
@@ -73,7 +77,8 @@ export const SnackCards = [
         image: spammusubi,
     }, 
     {
-        title: "cowboy caviar",
+        title: "Cowboy Caviar",
+        preptime: "15 min",
         ingredients: [
             "canned corn",
             "tomato",
@@ -95,7 +100,8 @@ export const SnackCards = [
         image: cowboycaviar,
     }, 
     {
-        title: "breakfast taco",
+        title: "Breakfast Taco",
+        preptime: "10 min",
         ingredients: [
             "tortilla",
             "eggs",

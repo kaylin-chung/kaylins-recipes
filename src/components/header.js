@@ -14,7 +14,7 @@ import Divider from "@material-ui/core/Divider";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import "@fontsource/poppins/300.css"
+import "@fontsource/montserrat"
 
 const navLinks = [
   {name: "home", href: "/" },
@@ -26,11 +26,11 @@ const navLinks = [
 const useStyles = makeStyles((theme) => ({
   link: {
     marginRight: 20,
-    fontFamily: "Poppins",
+    fontFamily: "montserrat",
   },
   title: {
     marginRight: "auto",
-    fontFamily: "Poppins",
+    fontFamily: "montserrat",
   },
   icon: {
     marginRight: "auto",
@@ -42,16 +42,17 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <AppBar position="sticky" style={{ background: '#FD89A5' }}>
+    <AppBar position="sticky" style={{ background: '#FE587F' }}>
       <Container maxWidth="md">
       <Toolbar disableGutters>
       <FontAwesomeIcon icon={faUtensils} className={classes.icon} size="2x" />
-      <h2 className={classes.title}>kaylin's recipes</h2>
+      <h2 className={classes.title}>KAYLIN'S RECIPES</h2>
       <Hidden xsDown>
         {navLinks.map((item) => (
           <Link 
             className={classes.link}
             style={{ color: 'white', fontWeight: "bold" }}
+            variant="button"
             href={item.href}
             key={item.name}  
           >

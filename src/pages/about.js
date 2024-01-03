@@ -3,7 +3,7 @@ import Header from '../components/header'
 
 const About = () => {
   return (
-    <div style={{ background: '#C6E0E5' }}>
+    <div>
       <Header/>
     </div>
   )

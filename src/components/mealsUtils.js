@@ -10,7 +10,8 @@ import eggsandy from "../images/eggsandy.jpeg"
 
 export const MealCards = [
     {
-        title: "grilled cheese & tomato soup",
+        title: "Grilled Cheese & Tomato Soup",
+        preptime: "10-15 min",
         ingredients: [
             "good bread (i like sourdough!)",
             "butter",
@@ -31,7 +32,8 @@ export const MealCards = [
         image: grilledcheese,
     }, 
     {
-        title: "emily mariko salmon bowl",
+        title: "Emily Mariko Salmon Bowl",
+        preptime: "10-15 min",
         ingredients: [
             "salmon",
             "rice (day-old (drier) is preferred)",
@@ -47,7 +49,8 @@ export const MealCards = [
         image: salmonrice,
     },
     {
-        title: "pesto pasta salad",
+        title: "Pesto Pasta Salad",
+        preptime: "10 min",
         ingredients: [
             "pasta of your choice",
             "grape tomatoes (chopped)",
@@ -66,7 +69,8 @@ export const MealCards = [
         image: pestopasta,
     },
     {
-        title: "spring rolls",
+        title: "Spring Rolls",
+        preptime: "30 min",
         ingredients: [
             "rice paper",
             "meat of your choice (shrimp, teriyaki meatballs, tofu, etc.)",
@@ -88,7 +92,8 @@ export const MealCards = [
         image: springrolls,
     },
     {
-        title: "chicken quesadilla",
+        title: "Chicken Quesadilla",
+        preptime: "10 min",
         ingredients: [
             "tortilla",
             "shredded chicken breast",
@@ -102,7 +107,8 @@ export const MealCards = [
         image: quesadilla,
     },
     {
-        title: "BYO kimbap",
+        title: "BYO Kimbap",
+        preptime: "30 min",
         ingredients: [
             "seaweed",
             "rice",
@@ -123,7 +129,8 @@ export const MealCards = [
         image: kimbap,
     },
     {
-        title: "chicken wrap",
+        title: "Chicken Wrap",
+        preptime: "10-15 min",
         ingredients: [
             "frozen chicken tenders",
             "tortilla",
@@ -141,7 +148,8 @@ export const MealCards = [
         image: chickenwrap,
     },
     {
-        title: "DIY pepper lunch",
+        title: "DIY Pepper Lunch",
+        preptime: "15-20 min",
         ingredients: [
             "rice",
             "teriyaki meatballs",
@@ -156,7 +164,8 @@ export const MealCards = [
         image: pepperlunch,
     },
     {
-        title: "egg salad sandwich",
+        title: "Egg Salad Sandwich",
+        preptime: "15-20 min",
         ingredients: [
             "eggs (two for single serving)",
             "mayo",
