@@ -63,8 +63,7 @@ export const MealCards = [
         ],
         instructions: [
             "roast zucchini in a pan with olive oil and s&p",
-            "add all ingredients (washed and chopped) to a bowl and mix",
-            "squeeze lemon juice over and enjoy!"
+            "add all ingredients (washed and chopped) to a bowl and mix with a squeeze of lemon juice",
         ],
         image: pestopasta,
     },

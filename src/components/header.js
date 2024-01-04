@@ -18,9 +18,9 @@ import "@fontsource/montserrat"
 
 const navLinks = [
   {name: "home", href: "/" },
-  { name: "about", href: "/about" },
   { name: "meals", href: "/meals" },
   { name: "snacks", href: "/snacks" },
+  { name: "about", href: "/about" },
 ];
 
 const useStyles = makeStyles((theme) => ({

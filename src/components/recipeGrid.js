@@ -15,7 +15,10 @@ import "@fontsource/merriweather"
 const RecipeGrid = ({ title, recipe }) => {
     const useStyles = makeStyles((theme) => ({
         cardMedia: {
-            width: 180,
+            width: '30%', 
+            height: '50%',
+            marginTop: theme.spacing(3),
+            marginRight: theme.spacing(3),
         },
         card: {
             display: "flex",
@@ -28,7 +31,7 @@ const RecipeGrid = ({ title, recipe }) => {
     return (
         <Container maxWidth="md">
             <Box mt={6} mb={2}>
-                <Typography style= {{fontFamily: 'Montserrat', fontWeight:"bolder"}} variant="h6">{title}</Typography>
+                <Typography style= {{fontFamily: 'Montserrat', fontWeight:"bolder"}} variant="h5">{title}</Typography>
             </Box>
             <Grid container direction="column" spacing={4}>
                 {recipe.map((data) => (
@@ -53,6 +56,7 @@ const RecipeGrid = ({ title, recipe }) => {
                         </CardContent>
                         <CardMedia
                             className={styles.cardMedia}
+                            component="img"
                             src={data.image}
                             alt={data.title}
                         />
